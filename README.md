@@ -39,7 +39,7 @@ Facility E | 98104 | 64
 ### 1.3.2 Maps 
 Example sources: Google Maps, Bing Maps, HERE, etc.
 These sources can be used for estimating average travel time for people traveling to a facility in their
-area or nearby their area, and the average travel time to all other facilities.\
+area or nearby their area, and the average travel time to all other facilities.
 
 ### 1.3.3 Population 
 <b>Example sources:</b> US Census Bureau, World Population Review, etc.
