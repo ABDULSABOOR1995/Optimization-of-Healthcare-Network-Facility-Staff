@@ -42,6 +42,6 @@ These sources can be used for estimating average travel time for people travelin
 area or nearby their area, and the average travel time to all other facilities.\
 
 ### 1.3.3 Population 
-<b>Example sources:>/b> US Census Bureau, World Population Review, etc.
+<b>Example sources:</b> US Census Bureau, World Population Review, etc.
 
 These sources can be used to grab population estimates in facility zip areas and nearby areas.
