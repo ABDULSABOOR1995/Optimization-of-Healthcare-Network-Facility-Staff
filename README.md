@@ -45,3 +45,17 @@ area or nearby their area, and the average travel time to all other facilities.\
 <b>Example sources:</b> US Census Bureau, World Population Review, etc.
 
 These sources can be used to grab population estimates in facility zip areas and nearby areas.
+
+## 2 DELIVERABLE
+Write a short technical document addressing the following:
+Introduction: What is your understanding of the problem? Can you write the introduction
+and the problem statement in formal conference paper-like format?
+* Assumptions: What assumptions would you make to simplify the problem?
+* Data gathering, handling, cleaning, processing: How would you acquire the data? What
+steps would you perform to process or clean the data? How would you extract useful data
+inputs for this task?
+* Proposed Solution: Share your optimization technique and any necessary details.
+* References: Cite any libraries, APIs, publications. We believe in standing on the shoulders of
+giants. Please reuse any existing research papers, source code, libraries but make sure to
+cite them.
+* Source code: Share your R or Python source code.
