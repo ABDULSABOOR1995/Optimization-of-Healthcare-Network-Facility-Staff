@@ -1,6 +1,6 @@
 # Optimizing a Healthcare Network for Improved Service Delivery
 
-## 1 INTRODUCTION
+## 1. INTRODUCTION
 The Washington State Health Ministry would like to optimally upgrade staff or resources in existing
 facilities across Washington so that they can allocate resources to where they are most needed, based
 on demand for services in different geographic regions/areas.
@@ -46,7 +46,7 @@ area or nearby their area, and the average travel time to all other facilities.
 
 These sources can be used to grab population estimates in facility zip areas and nearby areas.
 
-## 2 DELIVERABLE
+## 2. DELIVERABLE
 Write a short technical document addressing the following:<br>
 * <b>Introduction:</b> What is your understanding of the problem? Can you write the introduction
 and the problem statement in formal conference paper-like format?
