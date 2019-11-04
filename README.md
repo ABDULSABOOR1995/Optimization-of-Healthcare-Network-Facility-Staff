@@ -62,3 +62,5 @@ cite them.
 
 
 # Coded Solution of Given Problem
+## 1. Data Gathering:
+First of all we collect data from <b>Washington Demographics</b> and make its dataframe.
