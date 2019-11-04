@@ -64,38 +64,65 @@ cite them.
 # Coded Solution of Given Problem
 ### 1. Data Gathering:
 First of all we collect data from <b>"Washington Demographics"</b> and make its dataframe.
-sc#46
+<br><br><br>
+![Screenshot_46](https://user-images.githubusercontent.com/46135898/68156662-124c8180-ff6e-11e9-8d7c-dc342aa8c262.png)
+<br><br><br>
 
 ### 2. Data Understanding:
 Then we start understanding data by applying basic pandas statistical methods on the above data frame.
-47
-48
+<br><br><br>
+![Screenshot_47](https://user-images.githubusercontent.com/46135898/68156675-16789f00-ff6e-11e9-873d-4ae346b26765.png)
+<br><br><br>
+![Screenshot_48](https://user-images.githubusercontent.com/46135898/68156679-17a9cc00-ff6e-11e9-99b5-45f57291092c.png)
+<br><br><br>
+
 ### 3. Data Cleaning:
 Now we prepare data for analysis by removing unnecessary columns that exists in above table(data frame) and changing dtype of columns from object to int32.
-49
-50
+<br><br><br>
+![Screenshot_49](https://user-images.githubusercontent.com/46135898/68156681-18daf900-ff6e-11e9-8be5-a80c6b6b6d49.png)
+<br><br><br>
+![Screenshot_50](https://user-images.githubusercontent.com/46135898/68156683-19738f80-ff6e-11e9-9007-807a8d39aec3.png)
+<br><br><br>
 
 ### 4. Data Manipulation:
 After that, we 'll manipulate or prepare data in the format that is suitable for finding solution of the problem.
-
-51
-52
+<br><br><br>
+![Screenshot_51](https://user-images.githubusercontent.com/46135898/68156685-1aa4bc80-ff6e-11e9-850c-0e50f7e94186.png)
+<br><br><br>
+![Screenshot_52](https://user-images.githubusercontent.com/46135898/68156689-1bd5e980-ff6e-11e9-8667-c759e3f2721e.png)
+<br><br><br>
 
 ### 5- Optimization:
 After data preparation or manipulation we'll code the solution of given problem.
-53
-54
-55
-56
-
+<br><br><br>
+![Screenshot_53](https://user-images.githubusercontent.com/46135898/68156692-1c6e8000-ff6e-11e9-9a79-21dc2babfc44.png)
+<br><br><br>
+![Screenshot_54](https://user-images.githubusercontent.com/46135898/68156695-1d9fad00-ff6e-11e9-8ae8-cb4f42d2aa7a.png)
+<br><br><br>
+![Screenshot_55](https://user-images.githubusercontent.com/46135898/68156697-1ed0da00-ff6e-11e9-9719-04e5c23108a9.png)
+<br><br><br>
+![Screenshot_56](https://user-images.githubusercontent.com/46135898/68156699-1f697080-ff6e-11e9-8a99-4cb27b2204ec.png)
+<br><br><br>
 ### 6-  Visualizing Distances Using Folium Map:
 
 After finding the distances from each area to other area, we'll visualize them on folium map.
-57
-58
-59
-60
-61
-62
 
+<br><br><br>
+![Screenshot_57](https://user-images.githubusercontent.com/46135898/68156705-209a9d80-ff6e-11e9-8306-e5902cb4ec83.png)
 
+<br><br><br>
+![Screenshot_58](https://user-images.githubusercontent.com/46135898/68156712-22646100-ff6e-11e9-88a3-035305160fb2.png)
+
+<br><br><br>
+![Screenshot_59](https://user-images.githubusercontent.com/46135898/68156715-23958e00-ff6e-11e9-8452-36be81874902.png)
+
+<br><br><br>
+![Screenshot_60](https://user-images.githubusercontent.com/46135898/68156719-24c6bb00-ff6e-11e9-8b6b-f350dc20dab0.png)
+
+<br><br><br>
+![Screenshot_61](https://user-images.githubusercontent.com/46135898/68156727-25f7e800-ff6e-11e9-9bc6-46c6b03a8315.png)
+
+<br><br><br>
+![Screenshot_62](https://user-images.githubusercontent.com/46135898/68156728-26907e80-ff6e-11e9-8eef-f642f7840676.png)
+
+<br><br><br>
