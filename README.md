@@ -112,18 +112,23 @@ After finding the distances from each area to other area, we'll visualize them o
 ![Screenshot_57](https://user-images.githubusercontent.com/46135898/68156705-209a9d80-ff6e-11e9-8306-e5902cb4ec83.png)
 
 <br><br><br>
+####                                          Area A (Bellevue) with marker
 ![Screenshot_58](https://user-images.githubusercontent.com/46135898/68156712-22646100-ff6e-11e9-88a3-035305160fb2.png)
 
 <br><br><br>
+####                                          Distance from Area A to B (Bellevue to Snohomish Country)
 ![Screenshot_59](https://user-images.githubusercontent.com/46135898/68156715-23958e00-ff6e-11e9-8452-36be81874902.png)
 
 <br><br><br>
+####                                          Distance from Area A to C (Bellevue to Montalbano Elicona)
 ![Screenshot_60](https://user-images.githubusercontent.com/46135898/68156719-24c6bb00-ff6e-11e9-8b6b-f350dc20dab0.png)
 
 <br><br><br>
+####                                          Distance from Area A to D (Bellevue to Wenatchee)
 ![Screenshot_61](https://user-images.githubusercontent.com/46135898/68156727-25f7e800-ff6e-11e9-9bc6-46c6b03a8315.png)
 
 <br><br><br>
+####                                          Distance from Area A to E (Bellevue to ძველი თბილისის რაიონი, თბილისი)
 ![Screenshot_62](https://user-images.githubusercontent.com/46135898/68156728-26907e80-ff6e-11e9-8eef-f642f7840676.png)
 
 <br><br><br>
