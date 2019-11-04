@@ -108,6 +108,7 @@ After data preparation or manipulation we'll code the solution of given problem.
 After finding the distances from each area to other area, we'll visualize them on folium map.
 
 <br><br><br>
+####                                          Area A (Bellevue)
 ![Screenshot_57](https://user-images.githubusercontent.com/46135898/68156705-209a9d80-ff6e-11e9-8306-e5902cb4ec83.png)
 
 <br><br><br>
