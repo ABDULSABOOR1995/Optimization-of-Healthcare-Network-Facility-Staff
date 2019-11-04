@@ -62,5 +62,40 @@ cite them.
 
 
 # Coded Solution of Given Problem
-## 1. Data Gathering:
-First of all we collect data from <b>Washington Demographics</b> and make its dataframe.
+### 1. Data Gathering:
+First of all we collect data from <b>"Washington Demographics"</b> and make its dataframe.
+sc#46
+
+### 2. Data Understanding:
+Then we start understanding data by applying basic pandas statistical methods on the above data frame.
+47
+48
+### 3. Data Cleaning:
+Now we prepare data for analysis by removing unnecessary columns that exists in above table(data frame) and changing dtype of columns from object to int32.
+49
+50
+
+### 4. Data Manipulation:
+After that, we 'll manipulate or prepare data in the format that is suitable for finding solution of the problem.
+
+51
+52
+
+### 5- Optimization:
+After data preparation or manipulation we'll code the solution of given problem.
+53
+54
+55
+56
+
+### 6-  Visualizing Distances Using Folium Map:
+
+After finding the distances from each area to other area, we'll visualize them on folium map.
+57
+58
+59
+60
+61
+62
+
+
