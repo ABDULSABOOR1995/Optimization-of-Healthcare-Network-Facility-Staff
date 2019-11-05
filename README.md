@@ -18,6 +18,8 @@
 [5. Optimization](#l5)<br>
 [6. Visualizing Distances Using Folium Map](#l6)<br>
 
+[Conclusion](#conclusion)<br>
+
 <a id='problem'></a>
 ## PROBLEM
 
@@ -192,3 +194,7 @@ After finding the distances from each area to other area, we'll visualize them o
 ![Screenshot_62](https://user-images.githubusercontent.com/46135898/68156728-26907e80-ff6e-11e9-8eef-f642f7840676.png)
 
 <br><br><br>
+
+<a id='conclusion'></a>
+## Conclusion:
+So in this project, we modeled number of staff members needed in each area depending on level of care & rule of thumb. Furthermore, we found the distances from each area to other area and then we created leaflet maps of those distances with folium library.
