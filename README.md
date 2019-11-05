@@ -8,8 +8,10 @@
 [1.2 DESIRED SOLUTION ](#ll1.2)<br>
 [1.3 DATA SOURCES ](#ll1.3)<br>
 
+>[2. DELIVERABLE](#ll2)<br>
 
-[1. Data Gathering](#l1)<br>
+[CODED SOLUTION OF GIVEN PROBLEM](#sol)<br>
+>[1. Data Gathering](#l1)<br>
 [2. Data Understanding](#l2)<br>
 [3. Data Cleaning](#l3)<br>
 [4. Data Manipulation](#l4)<br>
@@ -79,6 +81,7 @@ These sources can be used to grab population estimates in facility zip areas and
 
 [Table of Content](#toc)
 
+<a id='ll2'></a>
 ## 2. DELIVERABLE
 Write a short technical document addressing the following:<br>
 * <b>Introduction:</b> What is your understanding of the problem? Can you write the introduction
@@ -95,8 +98,8 @@ cite them.
 
 [Table of Content](#toc)
 
-
-# CODED SOLUTION OF GIVEN PROBLEM:
+<a id='sol'></a>
+# CODED SOLUTION OF GIVEN PROBLEM
 
 <a id='l1'></a>
 ### 1. Data Gathering:
