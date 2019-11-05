@@ -3,6 +3,12 @@
 <a id='toc'></a>
 ## Table of Content:
 [PROBLEM](#problem)<br>
+> [1. INTRODUCTION](#ll1)<br>
+>>[1.1 SAMPLE PROBLEM](#ll1.1)<br>
+[1.2 DESIRED SOLUTION ](#ll1.2)<br>
+[1.3 DATA SOURCES ](#ll1.3)<br>
+
+
 [1. Data Gathering](#l1)<br>
 [2. Data Understanding](#l2)<br>
 [3. Data Cleaning](#l3)<br>
@@ -12,6 +18,8 @@
 
 <a id='problem'></a>
 ## PROBLEM
+
+<a id='ll1'></a>
 ## 1. INTRODUCTION
 The Washington State Health Ministry would like to optimally upgrade staff or resources in existing
 facilities across Washington so that they can allocate resources to where they are most needed, based
@@ -23,6 +31,7 @@ increasing capacity in some facilities and decreasing capacity in others.<br>
 
 [Table of Content](#toc)
 
+<a id='ll1.1'></a>
 ### 1.1 SAMPLE PROBLEM
 Majority of the population living in Area A need access to health services, but would need to travel on
 average 2 hours per return trip to get their needs met in Facility B, instead of travelling 0.5 hours to their
@@ -32,6 +41,7 @@ otherwise they go without healthcare.
 
 [Table of Content](#toc)
 
+<a id='ll1.2'></a>
 ### 1.2 DESIRED SOLUTION 
 To model how many staff members should be shifted from Facility B to Facility A, so that the population
 living in Area A can travel to their nearby Facility A instead of Facility B, improving travel cost/access to
@@ -44,6 +54,7 @@ problems.
 
 [Table of Content](#toc)
 
+<a id='ll1.3'></a>
 ### 1.3 DATA SOURCES 
 
 Facility ID | Facility Area-Zipcode | Facility Staff Count
@@ -54,14 +65,12 @@ Facility C | 98065 | 43
 Facility D | 98801 | 9
 Facility E | 98104 | 64
 
-[Table of Content](#toc)
 
 ### 1.3.2 Maps 
 Example sources: Google Maps, Bing Maps, HERE, etc.
 These sources can be used for estimating average travel time for people traveling to a facility in their
 area or nearby their area, and the average travel time to all other facilities.
 
-[Table of Content](#toc)
 
 ### 1.3.3 Population 
 <b>Example sources:</b> US Census Bureau, World Population Review, etc.
