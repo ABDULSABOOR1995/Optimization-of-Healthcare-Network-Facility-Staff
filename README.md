@@ -1,5 +1,17 @@
 # Optimizing a Healthcare Network for Improved Service Delivery
 
+<a id='toc'></a>
+## Table of Content:
+[PROBLEM](#problem)<br>
+[1. Data Gathering](#l1)<br>
+[2. Data Understanding](#l2)<br>
+[3. Data Cleaning](#l3)<br>
+[4. Data Manipulation](#l4)<br>
+[5. Optimization](#l5)<br>
+[6. Visualizing Distances Using Folium Map](#l6)<br>
+
+<a id='problem'></a>
+## PROBLEM
 ## 1. INTRODUCTION
 The Washington State Health Ministry would like to optimally upgrade staff or resources in existing
 facilities across Washington so that they can allocate resources to where they are most needed, based
@@ -9,12 +21,16 @@ To address this problem, the health ministry needs to:<br>
 increasing capacity in some facilities and decreasing capacity in others.<br>
 * Minimize people’s travel time so that they only travel to their nearby facility. <br>
 
+[Table of Content](#toc)
+
 ### 1.1 SAMPLE PROBLEM
 Majority of the population living in Area A need access to health services, but would need to travel on
 average 2 hours per return trip to get their needs met in Facility B, instead of travelling 0.5 hours to their
 nearby Facility A. This is because Facility A has only 21 staff/resources as opposed to 52 staff in Facility
 B. People living in Area A cannot travel this far, so they need to get their needs met by Facility A,
 otherwise they go without healthcare.
+
+[Table of Content](#toc)
 
 ### 1.2 DESIRED SOLUTION 
 To model how many staff members should be shifted from Facility B to Facility A, so that the population
@@ -26,6 +42,8 @@ serve 2808 standard patient needs a year. Not the entire population living nearb
 healthcare services, but we assume at least more than half would seek services for a variety of
 problems. 
 
+[Table of Content](#toc)
+
 ### 1.3 DATA SOURCES 
 
 Facility ID | Facility Area-Zipcode | Facility Staff Count
@@ -36,15 +54,21 @@ Facility C | 98065 | 43
 Facility D | 98801 | 9
 Facility E | 98104 | 64
 
+[Table of Content](#toc)
+
 ### 1.3.2 Maps 
 Example sources: Google Maps, Bing Maps, HERE, etc.
 These sources can be used for estimating average travel time for people traveling to a facility in their
 area or nearby their area, and the average travel time to all other facilities.
 
+[Table of Content](#toc)
+
 ### 1.3.3 Population 
 <b>Example sources:</b> US Census Bureau, World Population Review, etc.
 
 These sources can be used to grab population estimates in facility zip areas and nearby areas.
+
+[Table of Content](#toc)
 
 ## 2. DELIVERABLE
 Write a short technical document addressing the following:<br>
@@ -60,14 +84,21 @@ giants. Please reuse any existing research papers, source code, libraries but ma
 cite them.
 * <b>Source code:</b> Share your R or Python source code.
 
+[Table of Content](#toc)
 
-# Coded Solution of Given Problem
+
+# CODED SOLUTION OF GIVEN PROBLEM:
+
+<a id='l1'></a>
 ### 1. Data Gathering:
 First of all we collect data from <b>"Washington Demographics"</b> and make its dataframe.
 <br><br><br>
 ![Screenshot_46](https://user-images.githubusercontent.com/46135898/68156662-124c8180-ff6e-11e9-8d7c-dc342aa8c262.png)
 <br><br><br>
 
+[Table of Content](#toc)
+
+<a id='l2'></a>
 ### 2. Data Understanding:
 Then we start understanding data by applying basic pandas statistical methods on the above data frame.
 <br><br><br>
@@ -75,6 +106,10 @@ Then we start understanding data by applying basic pandas statistical methods on
 <br><br><br>
 ![Screenshot_48](https://user-images.githubusercontent.com/46135898/68156679-17a9cc00-ff6e-11e9-99b5-45f57291092c.png)
 <br><br><br>
+
+<a id='l3'></a>
+
+[Table of Content](#toc)
 
 ### 3. Data Cleaning:
 Now we prepare data for analysis by removing unnecessary columns that exists in above table(data frame) and changing dtype of columns from object to int32.
@@ -84,6 +119,10 @@ Now we prepare data for analysis by removing unnecessary columns that exists in 
 ![Screenshot_50](https://user-images.githubusercontent.com/46135898/68156683-19738f80-ff6e-11e9-9007-807a8d39aec3.png)
 <br><br><br>
 
+<a id='l4'></a>
+
+[Table of Content](#toc)
+
 ### 4. Data Manipulation:
 After that, we 'll manipulate or prepare data in the format that is suitable for finding solution of the problem.
 <br><br><br>
@@ -91,6 +130,10 @@ After that, we 'll manipulate or prepare data in the format that is suitable for
 <br><br><br>
 ![Screenshot_52](https://user-images.githubusercontent.com/46135898/68156689-1bd5e980-ff6e-11e9-8667-c759e3f2721e.png)
 <br><br><br>
+
+<a id='l5'></a>
+
+[Table of Content](#toc)
 
 ### 5- Optimization:
 After data preparation or manipulation we'll code the solution of given problem.
@@ -103,6 +146,11 @@ After data preparation or manipulation we'll code the solution of given problem.
 <br><br><br>
 ![Screenshot_56](https://user-images.githubusercontent.com/46135898/68156699-1f697080-ff6e-11e9-8a99-4cb27b2204ec.png)
 <br><br><br>
+
+<a id='l6'></a>
+
+[Table of Content](#toc)
+
 ### 6-  Visualizing Distances Using Folium Map:
 
 After finding the distances from each area to other area, we'll visualize them on folium map.
