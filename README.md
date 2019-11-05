@@ -195,6 +195,8 @@ After finding the distances from each area to other area, we'll visualize them o
 
 <br><br><br>
 
+[Table of Content](#toc)
+
 <a id='conclusion'></a>
 ## Conclusion:
 So in this project, we modeled number of staff members needed in each area depending on level of care & rule of thumb. Furthermore, we found the distances from each area to other area and then we created leaflet maps of those distances with folium library.
