@@ -105,7 +105,7 @@ cite them.
 
 <a id='l1'></a>
 ### 1. Data Gathering:
-First of all we collect data from <b>"Washington Demographics"</b> and make its dataframe.
+First of all, we collect data from <b>"Washington Demographics"</b> and make its data frame.
 <br><br><br>
 ![Screenshot_46](https://user-images.githubusercontent.com/46135898/68156662-124c8180-ff6e-11e9-8d7c-dc342aa8c262.png)
 <br><br><br>
@@ -126,7 +126,7 @@ Then we start understanding data by applying basic pandas statistical methods on
 [Table of Content](#toc)
 
 ### 3. Data Cleaning:
-Now we prepare data for analysis by removing unnecessary columns that exists in above table(data frame) and changing dtype of columns from object to int32.
+Now we prepare data for analysis by removing unnecessary columns that exist in the above table(data frame) and changing dtype of columns from object to int32.
 <br><br><br>
 ![Screenshot_49](https://user-images.githubusercontent.com/46135898/68156681-18daf900-ff6e-11e9-8be5-a80c6b6b6d49.png)
 <br><br><br>
@@ -138,7 +138,7 @@ Now we prepare data for analysis by removing unnecessary columns that exists in 
 [Table of Content](#toc)
 
 ### 4. Data Manipulation:
-After that, we 'll manipulate or prepare data in the format that is suitable for finding solution of the problem.
+After that, we 'll manipulate or prepare data in the format that is suitable for finding the solution to the problem.
 <br><br><br>
 ![Screenshot_51](https://user-images.githubusercontent.com/46135898/68156685-1aa4bc80-ff6e-11e9-850c-0e50f7e94186.png)
 <br><br><br>
@@ -150,7 +150,7 @@ After that, we 'll manipulate or prepare data in the format that is suitable for
 [Table of Content](#toc)
 
 ### 5- Optimization:
-After data preparation or manipulation we'll code the solution of given problem.
+After data preparation or manipulation we'll code the solution of the given problem.
 <br><br><br>
 ![Screenshot_53](https://user-images.githubusercontent.com/46135898/68156692-1c6e8000-ff6e-11e9-9a79-21dc2babfc44.png)
 <br><br><br>
@@ -167,7 +167,7 @@ After data preparation or manipulation we'll code the solution of given problem.
 
 ### 6-  Visualizing Distances Using Folium Map:
 
-After finding the distances from each area to other area, we'll visualize them on folium map.
+After finding the distances from each area to other areas, we'll visualize them on the folium map.
 
 <br><br><br>
 ####                                          Area A (Bellevue)
@@ -199,4 +199,10 @@ After finding the distances from each area to other area, we'll visualize them o
 
 <a id='conclusion'></a>
 ## Conclusion:
-So in this project, we modeled number of staff members needed in each area depending on level of care & rule of thumb. Furthermore, we found the distances from each area to other area and then we created leaflet maps of those distances with folium library.
+
+
+
+
+
+
+So in this project, we modeled the number of staff members needed in each area depending on the level of care & rule of thumb. Furthermore, we found the distances from each area to other areas and then we created leaflet maps of those distances with folium library.
